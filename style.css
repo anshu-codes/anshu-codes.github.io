@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(36, 2, 77);
+}
+.nav .left {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(225, 114, 173);
+}
+.nav .right ul {
+  display: flex;
+  justify-content: center;
+}
+.nav .right ul li {
+  list-style: none;
+  margin: 0px 23px;
+  font-size: 1.25rem;
+}
+.nav .right ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.nav .right ul li a:hover {
+  color: rgba(186, 112, 242, 0.691);
+}
+main hr{
+  border:0px;
+  background-color: blueviolet;
+  height:1.2px;
+margin:60px 80px ;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 140px 0px;
+}
+.first > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 3rem;
+}
+.rightsection img {
+  width: 80%;
+}
+.purple {
+  color: blueviolet;
+}
+#element {
+  color: blueviolet;
+}
+.second {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.second h1 {
+  font-size: 1.9 rem;
+}
+ 
+.second .box{
+  background: white;
+  margin-top: 40px;
+  width:80vw;
+  height:2px; 
+  padding:1px 0px;
+  display: flex;
+}
+.second .vertical{
+  height: 93px; 
+  width:1px ; 
+  background-color: white;
+  margin: 0 100px;
+}
+.vertical img{
+  width: 33px;
+  position:relative;
+  top:-32px; 
+  left:-9px;
+}
+.vertical-title{
+ 
+  font-size: 20px;
+    margin-top: 55px;
+}
+
+
+.vertical-desc{
+color:grey;
+}
+.footer{
+display: flex;
+margin: 23px 32px;
+
+}
+.footer  .flex{
+  background-color: rgb(248, 244, 252);
+  width:233px;
+}
